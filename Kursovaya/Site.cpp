@@ -14,5 +14,4 @@ Site::Site()
  cout << endl << "~~~~~~~~~ СОДЕРЖИМОЕ САЙТА ~~~~~~~~~" << endl << endl;
  read_from_file(filename); //заполнение массива с играми в базовом классе
 }
-
 string Site::get_filename() { return filename; }
